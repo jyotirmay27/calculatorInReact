@@ -72,8 +72,8 @@ function Card(){
      };
   
     return (
-       
-  <div className="card-body" style={{width:'40%', maxheight: '80%' , background: '#282c34' , marginTop:'5%',marginBottom:'10%',marginLeft:'0',padding:'0'}}>
+       <div className="ccd">
+  <div className="card-body" style={{ maxheight: '80%' , background: '#282c34' , marginTop:'5%',marginBottom:'10%',marginLeft:'0',padding:'0'}}>
     {/* <h5 classNameName="card-title">Card title</h5>
     <p classNameName="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> */}
     {/* <a href="#" classNameName="btn btn-primary">Go somewhere</a> */}
@@ -148,7 +148,7 @@ function Card(){
         Kuki dil se bura lagta hai😭😭.
     </h6>
    </div>
-  
+   </div>
 
 
     )
