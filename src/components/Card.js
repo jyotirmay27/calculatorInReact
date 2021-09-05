@@ -1,7 +1,7 @@
 import React,{useEffect,useState} from "react";
 import Button from "./button";
 import Display from "./display";
-
+import Quote from "./quote";
 function Card(){
     const [isValueX, setIsValueX] = useState("");
 
@@ -73,7 +73,10 @@ function Card(){
   
     return (
        <div className="ccd">
-  <div className="card-body" style={{ maxheight: '80%' , background: '#282c34' , marginTop:'5%',marginBottom:'10%',marginLeft:'0',padding:'0'}}>
+  <div className="card-body" style={{ maxheight: '80%' , background: '#282c34' ,marginBottom:'10%',marginLeft:'0',padding:'0'}}>
+  
+  <br></br>
+  <br></br>
     {/* <h5 classNameName="card-title">Card title</h5>
     <p classNameName="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> */}
     {/* <a href="#" classNameName="btn btn-primary">Go somewhere</a> */}

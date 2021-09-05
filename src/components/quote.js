@@ -34,20 +34,24 @@ function Quote() {
     if (error) {
       return <div>Error: {error.message}</div>;
     } else if (!isLoaded) {
-      return <div>Loading...</div>;
+      return <div style={{textAlign:'center'}}>Loading...</div>;
     } else {
       if(items && (items.length > 0 || items.quote!== undefined) )
       {
       console.log(items)
       return (
-        <ul>
-            <ol key={2}>
-            {items.quote.body}
-            </ol>
-            <ol key={1}> -
-            {items.quote.author} </ol>
+        <div style={{textAlign:'center'}}>
+         <h3> {items.quote.body} </h3>
+           <h5> -{items.quote.author}</h5>
+         </div>
+        // <ul style={{textAlign:'center'}}>
+        //     <li key={2}>
+        //     {items.quote.body}
+        //     </li>
+        //     <li key={1}> -
+        //     {items.quote.author} </li>
           
-        </ul>
+        // </ul>
       );
     }
     else{
