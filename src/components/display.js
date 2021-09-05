@@ -9,7 +9,7 @@ const Display= props=>{
 
     return (
        
-        <div style={{ marginTop:'2%',backgroundColor:'black'}}>
+        <div style={{ marginTop:'0%',backgroundColor:'black'}}>
             <h1 style={{margin:'0',padding:'4%'}}> {props.value}</h1>
             <hr></hr>
         </div>
