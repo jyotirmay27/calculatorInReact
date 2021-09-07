@@ -11,7 +11,7 @@ const Display= props=>{
        
         <div style={{ marginTop:'0%',backgroundColor:'black'}}>
             <h1 style={{margin:'0',padding:'4%'}}> {props.value}</h1>
-            <hr></hr>
+            
         </div>
   
     )
